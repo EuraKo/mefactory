@@ -20,7 +20,7 @@ function ImportFile(makeFile, file, backgroundIf) {
   });
 }
 var wrap = $('#wrap');
-var baseUrl  = 'https://eurako.github.io/mefactory/html/src/';
+var baseUrl  = './html/src/';
 var loadFile = {headBox   : baseUrl + 'all/headBox.html',
                gnbBox : baseUrl + 'all/gnbBox.html',
                bannerBox  : baseUrl + 'main/bannerBox.html',
