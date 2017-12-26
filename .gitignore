@@ -1,0 +1,14 @@
+# 주석
+# 그래픽 파일 파일전송금지(확장자명)
+**/*.psd
+**/*.ai
+**/*.eps
+**/*.config
+
+# node_modules 폴더금지
+**/node_modules
+
+# graphic파일에 있는 모든 파 일으 안올리지만 그래픽파일에 있는 guide.md는 올리겠다
+graphic/**/*.*
+!graphic/*.guide.md
+
