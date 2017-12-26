@@ -1,0 +1,41 @@
+#searchBox{width: 960px;height: 210px;margin: 0 auto;margin-bottom: 30px;}
+
+  .per_day_area{float: left;padding: 60px 0;box-sizing: border-box;}
+    .per_day_btn{}
+    .per_day_btn>ul{width: 208px;height: 30px;border:1px solid #222;}
+    .per_day_btn>ul>li{height: 30px;background-color: #F9D6DD;float: left;border-right:1px solid #222;padding: 5px;box-sizing: border-box;}
+    .per_day_btn>ul>li:hover{cursor: pointer;background-color: #DF1566}
+.per_day_btn>ul>li>button{width: 100%;height: 100%;background-color: transparent;}
+
+
+    .per_day_search{width: 100%;padding: 15px 0;box-sizing: border-box;}
+    .per_day_search>div{float: left;margin-right: 20px}
+      .search_before{float: left;}
+        .search_before>ul{width: 100%;height:100%;border: 1px solid #222;box-sizing: border-box;}
+        .search_before>ul>li{background-color: #eee;color: #888;float: left;
+          border-right:1px dotted #888;padding: 5px 10px;box-sizing: border-box;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

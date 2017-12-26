@@ -1,0 +1,45 @@
+#reviewBox{width: 960px;margin: 0 auto;}
+.tit{width: 120px;}
+
+.photo_review>.photo_tit{width: 100%;font-size:1.5rem;margin-bottom: 30px;float: left;
+}
+/*.category---------------------------------------*/
+.photo_review>.category{ height: 35px;float: right;margin-bottom: 30px;}
+.photo_review>.category>dl{width: 100%; height: 100%; }
+.photo_review>.category>dl>dt{width: 100%; height: 100%;border:1px solid #222;}
+.photo_review>.category>dl>dt>span{float: left;padding: 5px;box-sizing: border-box;}
+.photo_review>.category>dl>dt>button{height: 100%;float: right;border-left: 1px solid #222;padding: 5px;box-sizing: border-box;}
+
+.category>dl>dd{width: 100%; height:auto; background-color: #aaa; display: none;
+}s
+.category>dl>dd>ul{width: 100%; height:auto;}
+.category>dl>dd>ul>li{width: 100%; height:25px;padding: 5px;box-sizing: border-box; }
+
+.category:hover dd{display: block;}
+
+/* .view_content---------------------------------*/
+ul.view_content{width: 100%;height: 290px;border: 1px solid #222;float: left;margin-bottom: 20px;
+}
+  ul.view_content>li{width: 20%;height: 100%;float: left;border-right: 1px solid #222;box-sizing: border-box;}
+    .re_pic{width: 100%;height: 70%;background-color: #eee;}
+    .re_text{width: 100%;height: 30%;padding: 5px;box-sizing: border-box; }
+      .re_tit{width: 100%;height: 42px;padding: 5px;box-sizing:border-box;
+        white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+      .re_product{width: 100%;height: 42px;padding: 5px;box-sizing: border-box;border-top: 1px solid #222;}
+        .re_mini_pic{width: 18%;height: 100%;background-color: #eee;float: left;margin-right: 5px}
+        .re_pro_name{text-overflow:ellipsis;white-space: nowrap;overflow: hidden;}
+
+
+    
+  
+  
+
+
+
+
+
+
+
+
+
+

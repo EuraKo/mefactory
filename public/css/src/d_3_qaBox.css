@@ -1,0 +1,4 @@
+#qaBox{width: 960px;height: auto;padding: 30px;box-sizing: border-box;margin: 0 auto;}
+
+.write_area{width:height: auto; ;background-color: #DF1566;float: right;margin-bottom: 30px;font-size:1rem;padding: 5px 20px;box-sizing: border-box;text-align: center;}
+.write_area>span{color: #fff;text-align: center;}

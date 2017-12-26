@@ -1,0 +1,8 @@
+.tit{width: 140px;}
+
+#searchBox{width: 960px;height: auto;margin: 0 auto;padding: 30px;box-sizing: border-box;}
+
+  #searchBox #search{width:720px;height: 40px;border:1px solid #222;box-sizing:border-box;margin: 0 auto;}
+   #searchBox .search_bar{width: 150px;height: 100%;float:left;padding: 10px;box-sizing: border-box; }
+   #searchBox #search>button{width: 40px;height: 100%;background-color: #f9d6dd;float:right;border-left:1px solid #222;}
+ 

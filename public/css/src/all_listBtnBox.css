@@ -1,0 +1,7 @@
+/*list_btn--------------------*/
+.list_btn{width: auto;height: 30px;margin-bottom: 30px;}
+  .list_btn>ul{width: 100px;height: 100%;margin: 0 auto;}
+    .list_btn>ul>li{float: left;padding: 5px;box-sizing: border-box;}
+      .list_btn>ul>li>a{}
+    .right_btn{}
+    .left_btn{}

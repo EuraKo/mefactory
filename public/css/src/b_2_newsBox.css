@@ -1,0 +1,6 @@
+.tit{width: 120px;}
+
+#newsBox{width: 960px;margin: 0 auto;}
+#newsBox>div{width: 360px;margin: 0 auto;margin-bottom: 30px;}
+.news_pic{height: 360px;background-color: #eee;}
+.news_area,.source{height: auto;text-align: center;}

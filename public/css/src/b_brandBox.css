@@ -1,0 +1,11 @@
+/*.brandBox{}*/
+.tit{width:120px ;}
+.brand_area{width: 960px;height: auto;}
+
+  .brand_area>div{width: 100%;height: auto;padding: 30px;box-sizing: border-box;}
+
+    .brand_pic{width: 280px;height: 280px;background-color: #eee;float: left;}
+    .brand_content{width: 600px;float: left;padding: 20px;box-sizing: border-box;}
+      .brand_title{margin-bottom: 20px;font-size:1.5rem;}
+      /*.brand_text{}*/
+      .brand_model{margin-bottom: 20px;}

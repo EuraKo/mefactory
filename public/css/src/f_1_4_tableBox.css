@@ -1,0 +1,30 @@
+#tableBox{width: 960px;margin: 0 auto;}
+
+.tit{width: 120px;}
+.review_table{width: 100%;height: auto; float:left;margin-bottom: 30px;}
+
+/*제목----------*/
+.review_table>dl{width: 100%;height: auto;}
+.review_table>dl>dt{width: 100%;height: 50px;}
+.review_table>dl>dt>ul{width: 100%;height: 100%;}
+.review_table>dl>dt>ul.re_table_tit{}
+.review_table>dl>dt>ul>li{height: 50px;float: left;padding: 10px;box-sizing: border-box;text-align: center;border-bottom: 1px solid #222;font-size:1.5rem;
+}
+/*공통------------*/
+
+  li.re_pic{width: 10%;background-color: #eee;}
+  li.re_content{width: 60%;}
+  li.re_name{width: 10%;background-color: #fdd7df;}
+  li.re_date{width: 10%;}
+  li.re_hit{width: 10%;background-color: #fdd7df;}
+
+  /*내용-------------*/
+  .review_table>dl>dd{}
+  .review_table>dl>dd>ul.re_table_content{}
+  .review_table>dl>dd>ul.re_table_content:after{content:" ";display: block;clear:both;}
+  .review_table>dl>dd>ul>li{height: 50px;float: left;padding: 15px;box-sizing: border-box;text-align: center;border-bottom: 1px solid #aaa;font-size:1rem;}
+
+.review_table>dl>dd>ul>li.re_content{text-align: left;}
+
+
+
