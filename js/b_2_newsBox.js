@@ -26,7 +26,6 @@ select.load(file, function(){
 ImportFile('headBox',loadFile.headBox, true);
 ImportFile('gnbBox' , loadFile.gnbBox, true);
 ImportFile('b_2_newsBox' , loadFile.b_2_newsBox, true);
-ImportFile('listBtnBox' , loadFile.listBtnBox, true);
 ImportFile('sideBox', loadFile.sideBox, true);
 ImportFile('footBox',loadFile.footBox, true);
 })(this.jQuery);

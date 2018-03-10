@@ -20,7 +20,7 @@ select.load(file, function(){
   var loadFile={headBox : baseUrl+'all/headBox.html',
   gnbBox : baseUrl+'all/gnbBox.html',
   f_3_1_milegeBox :  baseUrl+'f_mypage/f_3_milegeBox/f_3_1_milegeBox.html',
-  f_3_2_searchBox :  baseUrl+'f_mypage/f_3_milegeBox/f_3_2_searchBox.html',
+  f_1_3_periodBox :  baseUrl+'f_mypage/f_1_orderBox/f_1_3_periodBox.html',
   f_3_3_tableBox :  baseUrl+'f_mypage/f_3_milegeBox/f_3_3_tableBox.html',
   sideBox : baseUrl+'all/sideBox.html',
   footBox : baseUrl+'all/footBox.html'};
@@ -28,7 +28,7 @@ select.load(file, function(){
 ImportFile('headBox',loadFile.headBox, true);
 ImportFile('gnbBox' , loadFile.gnbBox, true);
 ImportFile('f_3_1_milegeBox' , loadFile.f_3_1_milegeBox, true);
-ImportFile('f_3_2_searchBox' , loadFile.f_3_2_searchBox, true);
+ImportFile('f_1_3_periodBox' , loadFile.f_1_3_periodBox, true);
 ImportFile('f_3_3_tableBox' , loadFile.f_3_3_tableBox, true);
 ImportFile('sideBox', loadFile.sideBox, true);
 ImportFile('footBox',loadFile.footBox, true);

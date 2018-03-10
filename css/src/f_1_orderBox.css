@@ -1,37 +1,47 @@
-.tit{width: 120px;}
+/*f_1_orderBox.css*/
+.title{width: 170px;}
 
 /*f_1_2_processBox-----------*/
-#processBox{width: 960px;height: auto;background-color: #F9D6DD;padding: 30px;box-sizing: border-box;margin: 0 auto;}
+#processBox{width: 960px;height: auto;padding: 30px;box-sizing: border-box;margin: 0 auto;border:1px solid #f9d6dd;}
 
 #processBox>ul{width: 100%;height: 100%;}
 #processBox>ul>li{float: left;}
-#processBox>ul>li.pro_content{width: 125px;height: auto;margin-right: 20px;}
-  li>.pro_con_icon{height: 125px;background-color: #DF1566;border-radius: 50%;margin-bottom: 15px; ;}
+#processBox>ul>li{width: 125px;height: auto;margin-right: 55px;}
+/*아이콘*/
+  li>.pro_con_icon{height: 125px;background-color: #DF1566;border-radius: 50%;margin-bottom: 15px;position: relative;}
+  li>.pro_con_icon:before{display: block;font-family: fontawesome;font-size: 70px;color: #fff;text-align: center;line-height: 125px}
+  .pro_content:nth-of-type(1)>.pro_con_icon:before{content:"\f15c";}
+  .pro_content:nth-of-type(2)>.pro_con_icon:before{content:"\f09d";}
+  .pro_content:nth-of-type(3)>.pro_con_icon:before{content:"\f06b";}
+  .pro_content:nth-of-type(4)>.pro_con_icon:before{content:"\f0d1";}
+  .pro_content:nth-of-type(5)>.pro_con_icon:before{content:"\f015";}
   li>.pro_con_text{text-align: center;font-size:1rem;}
-
-#processBox>ul>li.pro_arrow{width: 40px;height: 40px;margin-top:60px }
+/*화살표*/
+#processBox>ul>li:before{display: block;content:"\f0da";font-family: fontawesome;margin-top:50px;font-size: 50px;color: #888;position: absolute;margin-left: 150px}
+#processBox>ul>li.last:before{display: none;}
 
 /*f_1_3_periodBox------------------*/
-#periodBox{width: 960px;padding: 50px 30px;box-sizing: border-box;margin: 0 auto;}
+#periodBox{width: 960px;padding: 120px 30px;box-sizing: border-box;margin: 0 auto;}
 
   .per_day_area{float: left;}
-    .per_day_btn{}
-    .per_day_btn>ul{width: 208px;height: 30px;border:1px solid #222;}
-    .per_day_btn>ul>li{height: 30px;background-color: #F9D6DD;float: left;border-right:1px solid #222;padding: 5px;box-sizing: border-box;}
-    .per_day_btn>ul>li:hover{cursor: pointer;background-color: #DF1566}
-.per_day_btn>ul>li>button{width: 100%;height: 100%;background-color: transparent;}
+  /*상단버튼*/
+    .per_day_btn{margin-bottom: 30px;}
+    .per_day_btn>ul{height: 30px;}
+    .per_day_btn>ul>li{width: 60px;height: 30px;float: left;padding: 5px;box-sizing: border-box;position: relative;}
+    .per_day_btn>ul>li:after{display: block;content: " ";position: absolute;width: 1px;height: 15px;background-color: #333;top:12px;margin-left: 53px}
+    .per_day_btn>ul>li.last:after{display: none;}
+    .per_day_btn>ul>li:hover{cursor: pointer;color: #DF1566}
+.per_day_btn>ul>li>button{width: 100%;height: 100%;}
+
+/*기간설정구간(폼태그)*/
+    .per_day_search{width: 100%;}
+    .per_day_search{float: left;}
+        .search_before>ul{width: 100%;height:100%;box-sizing: border-box;}
+      .search_before fieldset{float: left;border:1px solid #333;margin-right: 60px;padding: 5px;box-sizing: border-box;color: #888;}
 
 
-    .per_day_search{width: 100%;padding: 15px 0;box-sizing: border-box;}
-    .per_day_search>div{float: left;margin-right: 20px}
-      .search_before{float: left;}
-        .search_before>ul{width: 100%;height:100%;border: 1px solid #222;box-sizing: border-box;}
-        .search_before>ul>li{background-color: #eee;color: #888;float: left;
-          border-right:1px dotted #888;padding: 5px 10px;box-sizing: border-box;}
-
-
-
-  .per_btn{width: 90px;height: 90px;background-color: #DF1566;color: #fff;float: right;}
+/*조회버튼*/
+  .per_btn{width: 90px;height: 90px;float: right;border:1px solid #888;border-top: 5px solid #df1566;}
   .per_btn>button{width: 100%;height: 100%;background-color: transparent;}
 
 

@@ -1,0 +1,89 @@
+<!-- h_1_1_contentBox.html -->
+<div id="contentBox">
+  <h2 class="hidden">detail content</h2>
+
+    <article id="productSelect">
+      <!-- 사진 -->
+      <div class="view_box"></div>
+      <form action="#" method="post">
+        <fieldset>
+          <legend class="hidden">상품구매</legend>
+          <dl>
+            <dt>돼지 필링패드 5장</dt>
+            <dd>얼굴각질, 바디각질 각질패드로 올킬!</dd>
+            <dd class="price">
+              <strong>판매가 : </strong>
+               <span>9,800원</span><br />
+               <span class="sale">5,900원</span>
+            </dd>
+            <!-- 수량선택 -->
+            <dd class="select">
+              <input type="number" min="1" max="10" step="1" 
+                     id="num" name="num" value="1" 
+                     placeholder="수량 입력" />
+              <label for="num" class="hidden">상품구매갯수선택</label>
+              <!-- + - button -->
+              <button type="button" class="minus">
+                <i class="fa fa-minus"></i>
+                <span class="hidden">minus</span>
+              </button>
+              <button type="button" class="plus">
+                <i class="fa fa-plus"></i>
+                <span class="hidden">plus</span>
+              </button>
+              </dd>
+              <!-- 추가옵션 -->
+              <dd class="option">
+                <label for="optionProduct" class="hidden">추가 옵션 선택</label>
+                <select name="optionProduct" id="optionProduct">
+                  <option value="none">추가 옵션 선택</option>
+                  <option value="option_1" data-price="1000">추가 상품 구매 (+1,000)</option>
+                  <option value="option_2" data-price="2000">추가 상품 구매 (+2,000)</option>
+                  <option value="option_3" data-price="3000">추가 상품 구매 (+3,000)</option>
+                  <option value="option_4" data-price="4000">추가 상품 구매 (+4,000)</option>
+                  <option value="option_5" data-price="5000">추가 상품 구매 (+5,000)</option>
+                  <option value="option_6" data-price="6000">추가 상품 구매 (+6,000)</option>
+                </select>
+              </dd>
+              <!-- 택배 -->
+              <dd class="send">
+                <input type="radio" id="notpay" name="send" value="배송시결재" class="hidden" />
+                <label for="notpay">택배요금 배송시 결재</label>
+                <input type="radio" id="pay" name="send" value="구매시결재" class="hidden" />
+                <label for="pay">택배요금 구매시 포함</label>
+              </dd>
+              <!-- 총금액 -->
+              <dd class="result">
+                <strong>총 금액: </strong>
+                <span>5,900원</span>
+              </dd>
+          </dl>
+          <!-- 버튼 -->
+          <div class="complete">
+            <a href="#">구매하기</a> 
+            <button type="button">
+              <i class="fas fa-shopping-bag"></i>
+              <span class="hidden">장바구니</span>
+            </button>
+            <button type="button">
+              <i class="fas fa-heart"></i>
+              <span class="hidden">관심상품에 넣기</span>
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </article>
+
+
+</div>
+
+
+
+
+
+
+<script src="../js/src/detailBox.js"></script>
+
+
+  <!-- //.detail_area -->
+</div>

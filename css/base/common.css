@@ -13,11 +13,10 @@
 #wrap .top{margin-top:0;border-top:0;}
 #wrap .bottom{margin-bottom:0;border-bottom:0;}
 
-#wrap .check{width: 15px;height: 15px;border:2px solid #222;margin-right: 10px;}
-#wrap .tit{height: auto;margin: 0 auto;margin-bottom: 30px;}
-#wrap .tit>h2{text-align:center;border-top:10px solid #df1566;}
+#wrap .check{width: 15px;height: 15px;border:2px solid #333;margin-right: 10px;}
+#wrap .title{font-size:2rem;text-align:center;margin: 0 auto;margin-bottom: 60px;border-top:5px solid #df1566;padding: 10px 30px;box-sizing: border-box;text-transform: uppercase;margin-top: 60px;}
 
 /* accessibility.css */
 
-a:focus, button:focus{outline:2px solid #222;background-color:transparent;color:#222;cursor: pointer;}
-a:hover,button:hover{cursor: pointer;}
+a:focus, button:focus{outline:2px solid #333;background-color:transparent;color:#333;cursor: pointer;}
+a:hover,button:hover,i:hover{cursor: pointer;color: #df1566;}

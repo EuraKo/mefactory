@@ -1,17 +1,21 @@
-  <div class="tit">
+<!-- g_1_searchBox.html -->
+<article id="searchBox">
+  <div class="title">
     <h2>search</h2>
   </div>
-
-<article id="searchBox">
-
-      <h2 class="hidden">searchArea</h2>
-      <div id="search">
+      <form id="search">
         <h3 class="hidden">검색창</h3>
-        <div class="search_bar">search</div>
-        <button type="button"></button>
-
-
-
-
+        <fieldset class="clearfix">
+          <legend class="hidden">검색창</legend>
+          <!-- 버튼모양 -->
+          <button type="button">
+            <i class="fas fa-search"></i>
+            <span class="hidden">검색</span>
+          </button>
+            <!-- 입력창 -->
+          <input type="test" id="search_btn" name="search_btn" placeholder="검색하기">
+          <label for="search_btn"></label>
+        </fieldset>
+</form>
 
 </article>

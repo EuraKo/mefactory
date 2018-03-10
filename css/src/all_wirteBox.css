@@ -1,0 +1,18 @@
+/*all_wirteBox.css (d_1_reviewBox_2.html h_1_1contentBox.html) */
+.write_area{width: 960px;height: auto;margin: auto;}
+.write_area ul{width: 100%;height: auto;border-top: 1px solid #f9d6dd;}
+.write_area li{padding: 30px;box-sizing: border-box;border-bottom: 1px solid #888;}
+.write_area li>div{float: left;}
+/*별점구간*/
+.star_area{margin-right: 100px;}
+.star_area .star{color: #df1566;}
+.star_area .i{}
+.star_area .id_line{}
+.star_area .date{color: #555;}
+/*글자구간*/
+.text_area{}
+.text_area dl{}
+.text_area dt{font-weight: bold;}
+.text_title{}
+.tex_content{color: #555;font-size: 12px;white-space: nowrap;text-overflow: ellipsis;}
+.more_view{color: #df1566;font-weight: bold;font-family: }

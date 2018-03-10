@@ -1,0 +1,38 @@
+/*h_2_detailBox.css*/
+#detailBox{height: 9210px;width: 960px;margin: auto;
+  background-image: url(../../../img/detail/skin.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*영역나눠논것
+.partition{width: 960px;text-align: center;
+  background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+-o-background-size: cover;
+background-size: cover;}
+.partition_01{
+}
+.partition_02{height: 400px;
+  background-image: url(../../../img/detail/Peeling Pad_shop1_183108.gif);
+}
+.partition_03{background-image: url(../../../img/detail/);
+}
+.partition_04{background-image: url(../../../img/detail/);
+}
+.partition_05{background-image: url(../../../img/detail/);
+}
+.partition_06{background-image: url(../../../img/detail/);
+}
+.partition_07{background-image: url(../../../img/detail/);
+}
+
+#detailBox .image>h3{display:block; width:0;height:0;position:absolute; z-index:-100; overflow:hidden;}*/

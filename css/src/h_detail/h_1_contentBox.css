@@ -1,0 +1,83 @@
+/*h_1_contentBox.css*/
+
+#productSelect{width: 100%; height: 600px; border-bottom: 1px solid  #777; margin-bottom: 2rem; background-color: #fff;
+  box-sizing:border-box; padding: 25px;}
+ .view_box{width: 350px; height: 100%; float: left; background-color: #ccc;
+   background-image: url(../../../img/hit/shop1_3.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center; }
+
+/*제목 , 수량버튼*/
+ #productSelect form{width: 500px; height: 100%; float: right; box-sizing:border-box; padding-top: 0.5rem;}
+  #productSelect fieldset{width: 100%; height: 100%;}
+  #productSelect fieldset>dl{width: 100%; height:auto;}
+  #productSelect fieldset dt{width: 100%; height: auto; font-size: 20px;font-weight: bold;margin-bottom: 0.5rem; text-transform:capitalize;margin-bottom: 60px}
+  #productSelect fieldset dd{text-indent: 0.3rem; margin-bottom: 1rem;font-size: 12px;}
+  #productSelect fieldset dd.price{font-size: 1rem; margin-bottom: 1rem;border-top: 1px solid #333;padding-top: 30px;box-sizing: border-box;}
+ fieldset dd.price>strong{}
+ fieldset dd.price>span:first-of-type{text-decoration:line-through }
+ fieldset dd.price>span:last-of-type{display: block;font-size: 20px;color: #df1566;font-weight: bold;text-indent: 4rem}
+
+
+ fieldset dd.select{width: 30%; height: 2.5rem; box-sizing: border-box; padding: 0.2rem; 
+                position: relative;}
+ fieldset dd.select>button{width: 2.5rem; height: 100%; float: left; background-color: #eee;}
+ fieldset dd.select>button:focus{background-color: #eee;}
+ fieldset dd.select>button:last-of-type{float: right;}
+ fieldset dd.select>input{width:calc(100% - 5rem); height: 2.1rem; border-top: 0; border-bottom: 0; float: left;
+  position: absolute; top: 0.2rem; left: 50%; margin-left:calc( (100% - 5rem) / -2); text-align: center; font-size: 1.3rem;}
+ fieldset dd.select>input:focus{outline: 0; background-color: #d07; color:#fff; border-color:#fff;}
+/*추가옵션*/
+ fieldset dd.option{position: relative}
+ fieldset dd.option>select:focus{border-bottom:2px solid #d07;}
+ fieldset dd.option>select{width: 100%; height: 2.5rem; border-bottom:1px solid #999; text-indent: 1rem; }
+ fieldset dd.option:before{content:"\f0ab"; display: block; width: 2rem; height: 2rem; font-family:fontawesome; position: absolute; top: 50%; margin-top: -1rem; right:1rem; z-index: 100; text-align: center; line-height: 2rem;}
+  
+  /*택배*/
+ fieldset dd.send{width: 100%; height: 2rem;} 
+ fieldset dd.send>label{width:50%; height: auto; margin-bottom:0.3rem; margin-right: 3rem; cursor:pointer; letter-spacing:-0.05rem;}
+ /*fieldset dd.send>label:last-of-type{width: 45%; height: auto; margin-bottom:0.3rem; display: inline-block;}*/
+ fieldset dd.send>label:before{content:"\f06b"; font-family:fontawesome; font-size: 1.3rem; margin-right: 0.3rem;
+  transition:all 300ms ease;}
+ fieldset dd.send>input:checked+label:before,
+ fieldset dd.send>input.checked+label:before{color:#d07; font-size: 2rem;}
+ fieldset dd.send>input:focus+label,
+ fieldset dd.send>input.focus+label{border-bottom: 2px solid  #df1566;}
+
+/*총금액*/
+ fieldset dd.result{font-size: 1rem;}
+ fieldset dd.result>strong{color:#333; margin-right: 0.3rem;}
+ fieldset dd.result>span{margin-left: 0.5rem;font-size: 24px;color: #df1566;font-weight: bold;}
+
+/*버튼*/
+ .complete{width: 100%; height: 3rem;padding: 0 30px;box-sizing: border-box;}
+ .complete>button,.complete>a{height: 100%; background-color: #fff;font-size: 1.3em;  transition:all 200ms ease; box-sizing:border-box;}
+ .complete>a{width: 160px;border:1px solid #aaa;border-top: 5px solid #df1566;text-align: center;
+ line-height: 3rem;float: left;}
+ .complete>button{width: 80px;float: right;}
+ .complete>button:first-of-type{border:1px solid #df1566; color:#df1566;}
+ .complete>button:last-of-type{background-color: #df1566; color:#fff;}
+
+ .complete>button:focus{box-shadow:0.2rem 0.2rem 0.2rem rgba(50,50,50,0.6);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

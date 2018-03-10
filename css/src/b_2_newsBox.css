@@ -1,6 +1,28 @@
-.tit{width: 120px;}
+.title{width: 150px;}
 
-#newsBox{width: 960px;margin: 0 auto;}
-#newsBox>div{width: 360px;margin: 0 auto;margin-bottom: 30px;}
-.news_pic{height: 360px;background-color: #eee;}
-.news_area,.source{height: auto;text-align: center;}
+#newsBox{width: 750px;margin: auto;}
+.news_area{width: 100%;height: auto;}
+
+.news_area a{display: block;width: 48%;height: 100%;float: left;margin-right: 30px;}
+.news_area a:nth-of-type(2n){margin-right: 0;}
+.news_area dl{width: 360px;height: auto;position: relative;}
+.news_area dt{width: 100%;height: 360px;margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*사진,글*/
+.news_area a:first-of-type dt{background-image: url(../../img/brand/news1.jpg);}
+.news_area a:last-of-type dt{background-image: url(../../img/brand/news2.jpg);}
+.news_area dd.news_text{font-weight: bold;font-size: 20px;}
+.news_area dd.source{color: #555;}
+
+/*마우스올릴시*/
+.news_area dl:hover:after{content: " ";display: block;width: 100%;height: 360px;background-color: rgba(0,0,0,0.5);position: absolute;top: 0;}
+.news_area dl:hover:before{content: "+";display: block;color: #df1566;
+font-size: 90px;line-height: 360px;position: absolute;left: 50%;margin-left: -30px;z-index: 300;}
