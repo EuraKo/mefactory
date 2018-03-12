@@ -1,15 +1,44 @@
-#couponBox{width: 960px;height: auto;margin: 0 auto;}
-
+/*f_4_couponBox.css*/
 .title{width: 200px;}
+#couponBox{width: 960px;margin: auto;}
 
-.coupon_area{width: 100%;height: 240px;background-color: #F9D6DD;}
-.coupon_area:nth-of-type(2n-1){background-color: #fff}
+.all_table{width: 100%;height: auto; float:left;margin-bottom: 30px;}
 
-.coupon_pic{width: 240px;height: 100%;background-color: #eee;float: left;}
+/*제목----------*/
+.all_table>dl{width: 100%;height: auto;}
+.all_table>dl>dt{width: 100%;height: 120px;border-top: 3px solid #df1566;
+border-bottom: 1px solid #aaa;}
+.all_table>dl>dt>ul{width: 100%;height: 100%;}
+.all_table>dl>dt>ul>li{float: left;line-height: 120px;text-align: center;font-size:18px;text-transform: uppercase;}
+/*간격설정------------*/
 
-.coupon_btn{width:390px ;height: 100%;float: left;font-size:2rem;text-align: center;background-color: inherit;}
-.coupon_btn:hover{color: #DF1566;}
-.coupon_btn>span{padding: 60px;box-sizing: border-box;display: block;
-}
+.cou_type{width: 10%;}
+.cou_kind{width: 30%;}
+.cou_name{width: 35%;}
+dd>ul>li.cou_name{font-weight: bold; text-align: left;}
+.cou_cash{width: 10%;}
+.cou_date{width: 15%;}
 
-.coupon_period{width: 300px;height: 100%;padding: 110px 20px;box-sizing:border-box;float: right;}
+
+
+
+  /*내용-------------*/
+  .all_table>dl>dd{text-transform: uppercase;}
+  .all_table>dl>dd>ul.re_table_content:after{content:" ";display: block;clear:both;}
+  .all_table dl dd li{height: 180px;float: left;line-height: 180px;text-align: center;border-bottom: 1px solid #aaa;font-size:1rem;}
+
+
+.cou_kind a{display: block;width: 100%;height: 100%;
+background-image: url(../../img/coupon.svg);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: 60%;
+-moz-background-size: 60%;
+-ms-background-size: 60%;
+-o-background-size: 60%;
+background-size: 60%;
+filter:drop-shadow(0.3rem 0.3rem 0.3rem #aaa);
+  }
+
+
+

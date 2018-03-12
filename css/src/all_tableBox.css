@@ -2,6 +2,7 @@
 #noticeBox .title{width: 150px;}
 .table{width: 100%;margin: 0 auto;}
 #tableBox{width: 960px;margin: auto;}
+#myPostBox .title{width: 200px;}
 
 /*.title{width: 180px;}*/
 .all_table{width: 100%;height: auto; float:left;margin-bottom: 30px;}
@@ -23,7 +24,7 @@
 .order_content{width:50% ;}
 .order_amount,.order_cash,.order_data{width:10%;}
 
-/*f_3_3_tableBox.html*/
+/*f_3_milegeBox/f_3_3_tableBox.html | f_5_myPostBox.html*/
 .mile_con{width:60% ;}
 .mile_type{width:10% ;}
 .mile_point{width:10% ;}
@@ -31,7 +32,6 @@
 
   /*내용-------------*/
   .all_table>dl>dd{text-transform: uppercase;}
-  .all_table>dl>dd>ul.re_table_content{}
   .all_table>dl>dd>ul.re_table_content:after{content:" ";display: block;clear:both;}
   .all_table>dl>dd>ul>li{height: 50px;float: left;padding: 15px;box-sizing: border-box;text-align: center;border-bottom: 1px solid #aaa;font-size:1rem;}
 

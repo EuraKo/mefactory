@@ -20,3 +20,36 @@
 
 a:focus, button:focus{outline:2px solid #333;background-color:transparent;color:#333;cursor: pointer;}
 a:hover,button:hover,i:hover{cursor: pointer;color: #df1566;}
+
+/*checkBox btn*/
+input[type="checkbox"]{display: none;position: relative;z-index: -1000;}
+input[type="checkbox"]+label{position: relative;}
+input[type="checkbox"]+label>span{margin-left: 30px}
+input[type="checkbox"]+label:after{
+content: " ";
+    width: 20px;
+    height: 15px;
+    background: #aaa;
+    position: absolute;
+    left:0;
+    top:50%;
+    margin-top: -10px
+  }
+
+input[type="checkbox"]+label:before {
+  border-top: 4px solid #aaa;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  width: 0;
+  top:50%;
+  margin-top: 5px
+}
+
+input[type="checkbox"]:checked+label:after{background-color: #df1566}
+input[type="checkbox"]:checked+label:before{border-top: 4px solid #df1566;}
+
+input[placeholder]{text-transform: uppercase;}
+

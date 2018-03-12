@@ -1,36 +1,32 @@
+/*a_2_joinBox.css*/
 /*joinBox--------------------------------*/
 .joinBox{width: 100%;height: auto;}
 
 /*tit--------------------------------*/
-.tit{width: 150px;}
+.title{width: 180px;}
 
 
-/*customArea--------------------------------*/
-.customArea{width: 100%;height: 70px;}
-  .customArea>div{float: left;padding: 28px;box-sizing:border-box;}
-  .customArea>div.member{width:30% ;height: 100%;background-color: #F9D6DD;}
-    .customArea>div.member>h3{text-align: right;font-size:1rem;}
+/*customArea 회원구분--------------------------------*/
+.customArea{width: 100%;height: 60px;}
+  .customArea>div{float: left;padding: 0 28px;box-sizing:border-box;}
+  .customArea>div.member{width:30% ;height: 100%;border-right: 5px solid #DF1566;}
+    .customArea>div.member>h3{text-align: right;font-size:1rem;line-height: 60px;}
  
   .customArea>div.alone{width: 70%;height: 100%;}
-    .customArea>div.alone>div{float: left;}
+    .customArea>div.alone form{float: left;padding: 15px 0;}
 
 
 
-/*advice--------------------------------*/
-.advice{width: 580px;height: auto;margin:auto;margin-bottom: 30px;}
-.advice_tit{margin: 20px 0;}
-.advice>ul{width: 100%;height: 100%;border:1px solid #222;}
-.advice>ul>li{width: 100%;height:40px;
-              border-bottom: 1px solid #222;}
+/*advice 기본정보--------------------------------*/
+.advice{width: 580px;height: auto;margin:auto;padding: 60px;box-sizing: border-box;}
+.advice legend{font-size: 25px;margin-bottom: 30px}
+.advice input{width: 100%;height: 60px;background-color: #eee;margin-bottom: 30px;border-left:3px solid #DF1566;}
+.advice input[placeholder]{padding: 0 20px;box-sizing: border-box;}
 
-.advice>ul>li:after{content:" ";display:block;clear:both;}
-.write_tit{width: 170px;height: 100%;float: left;border-right:1px solid #222;background-color: #df1566;color: #fff;text-align: right;padding:10px;box-sizing: border-box;
-;}
-.write{float: left;}
 
 /*agree--------------------------------*/
-.agree_area{width: 960px;height: 540px;background-color: #eee;margin: 0 auto;padding: 30px;box-sizing:border-box; margin-bottom: 30px; }
-.agree_area>div{border-bottom: 1px solid #222;}
+.agree_area{width: 960px;height: auto;background-color: #eee;margin: 0 auto;padding: 30px;box-sizing:border-box; margin-bottom: 30px; }
+.agree_area>div{border-bottom: 1px solid #333;}
 .agree_all{width:auto ;height:auto ;padding-bottom:10px;box-sizing: border-box;}
 .agree_all>div{float: left;}
 /*.agree_all>div.agree_text{width: ;height: ;}*/
@@ -38,7 +34,7 @@
 .agree_scroll{width:100% ;height:200px;padding: 0.5rem;box-sizing:border-box;overflow: hidden;}
 .agree_scroll>span{display: block;width: 100%;height: 80%;overflow-y:scroll;overflow-x:hidden;padding-right: 5rem;margin-bottom: 10px;}
 
-.agree_scroll>ul{width: 100%;height: 20%;}
+/*.agree_scroll>ul{width: 100%;height: 20%;}*/
 .agree_scroll>ul>li{width: auto;height: auto;float: left;margin-right: 10px;}
 .agree_question{width:100% ;height:auto ;padding: 10px;box-sizing: border-box;}
 .agree_question>div>ul{width: 100%;height: 100%;}
@@ -49,8 +45,8 @@
 
 
 /*join_btn--------------------------------*/
-.join_btn{width: 150px;height: 40px; background-color: #DF1566;margin: 0 auto;margin-bottom: 30px;}
-.join_btn>button{width: 100%;height: 100%;background-color: inherit;color: #fff;text-align: center;padding: 10px;box-sizing: border-box;}
+.join_btn{width: 150px;height: 45px; border:1px solid #aaa;border-top: 5px solid #DF1566;margin: 0 auto;margin-bottom: 30px;}
+.join_btn>button{width: 100%;height: 100%;background-color: inherit;text-align: center;line-height: 45px;}
 
 
 

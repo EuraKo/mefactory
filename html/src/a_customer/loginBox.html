@@ -1,64 +1,74 @@
+<!-- a_customer / loginBox.html -->
 <article id="loginBox" class="clearfix">
   <h2 class="hidden">loginBox</h2>
   <div class="loginArea">
-  <div class="tit">LOGIN</div>
+  <div class="title">LOGIN</div>
 
   <div class="content last">
-    <div class="log_enter">
-      <ul>
-        <li class="id">
-          <div>id</div>
-        <div class="write"></div>
-      </li>
-        <li class="pw">
-          <div>pw</div>
-        <div class="write"></div>
-      </li>
-      </ul>
-
+    <!-- login form -->
+<form action="#" method="post" >
+  <!-- 아이디 비밀번호 입력창 -->
+  <fieldset class="log_enter">
+    <legend class="hidden">로그인</legend>
+    <input type="text" id="idName" name="idName" value="" placeholder="ID" required="">
+    <label for="idName"></label>
+    <input type="password" id="pwName" name="pwName" value="" placeholder="PW" required="">
+    <label for="pwName"></label>
+  </fieldset>
+<!-- 버튼 -->
+  <fieldset class="log_btn">
+    <div>
+      <a href="./a_2_join.html">join</a>
     </div>
-    <div class="log_btn clearfix">
-      <div class="join"><a href="./a_2_join.html">join</a></div>
-      <div class="login last"><button type="button">login</button></div>
+    <button type="button">login</button>
+  </fieldset>
+<!-- 분실,기억하기 -->
+<fieldset class="key">
+  <input type="checkbox" id="checkBox" name="checkBox" value="">
+  <label for="checkBox"><span>아이디 / 비밀번호 기억하기</span></label>
+      <div>
+      <a href="./a_2_join.html">
+        <i class="fas fa-exclamation-triangle"></i>아이디 / 비밀번호를 잃어버렸나요?</a>
     </div>
-    <div class="log_search">
-      <div class="remember clearfix">
-        <div class="check"></div>
-        <div class="remember_text">id/pw기억하기</div>
-      </div>
-
-
-      <div class="kye clearfix">
-        <div class="icon">?</div>
-        <div class="kye_text">잃어버렸나요?</div>
-      </div>
+</fieldset>
+</form>
     </div>
-  </div>
   </div>
 
 <!-- //#login======================= -->
+<!-- non -->
   <div class="loginArea non">
-    <div class="tit">NON</div>
 
-    <div class="content">
-     <div class="log_enter">
-      <ul>
-        <li class="item_n">
-          <div>item_number</div>
-        <div class="write"></div>
-      </li>
-        <li class="pw">
-          <div>pw</div>
-        <div class="write"></div>
-      </li>
-      </ul>
+    <div class="title">non</div>
 
-  
+  <div class="content last">
+    <!-- login form -->
+<form action="#" method="post" >
+  <!-- 아이디 비밀번호 입력창 -->
+  <fieldset class="log_enter">
+    <legend class="hidden">로그인</legend>
+    <input type="text" id="numberName" name="numberName" value="" placeholder="NUMBER" required="">
+    <label for="numberName"></label>
+    <input type="password" id="numPwName" name="numPwName" value="" placeholder="PW" required="">
+    <label for="numPwName"></label>
+  </fieldset>
+<!-- 버튼 -->
+  <fieldset class="log_btn center_btn">
+
+    <button type="button" class="">login</button>
+  </fieldset>
+<!-- 분실,기억하기 -->
+<fieldset class="key">
+  <input type="checkbox" id="nonCheckbox" name="nonCheckbox" value="">
+  <label for="nonCheckbox"><span>주문번호 / 비밀번호 기억하기</span></label>
+      <div>
+      <a href="./a_2_join.html">
+        <i class="fas fa-exclamation-triangle"></i>주문번호 / 비밀번호를 잃어버렸나요?</a>
     </div>
-    <div class="log_btn"><button type="button">check</button></div>
+</fieldset>
+</form>
     </div>
-    <!-- //.content -->
-    </div>
+  </div>
     <!-- //.loginArea non -->
 </article>
 
