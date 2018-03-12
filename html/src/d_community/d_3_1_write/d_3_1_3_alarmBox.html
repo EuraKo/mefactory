@@ -1,21 +1,31 @@
+<!-- d_3_1_3_alarmBox.html -->
 <article id="alarmBox" class="clearfix">
   <div class="title_name">답변등록알람</div>
 
-<div class="alarm_area">
-  <div class="sms_area">
-    <ul class="clearfix">
-      <li class="check"></li>
-      <li class="howto">SMS</li>
-      <li class="alarm_text"></li>
-    </ul>
-  </div>
+<form action="#" method="post" class="alarm_area">
+  <fieldset class="sms_area">
+      <input type="checkbox" id="smsChedk" name="smsChedk" value="">
+      <label for="smsChedk"><span>sms</span></label>
+      <input type="tel" name="smsText" id="smsText"></input>
+  </fieldset>
 
-  <div class="email_area">
-    <ul class="clearfix">
-      <li class="check"></li>
-      <li class="howto">E-Mail</li>
-      <li class="alarm_text"></li>
-    </ul>
-  </div>
-</div>
+  <fieldset class="email_area">
+      <input type="checkbox" id="emailChedk" name="emailChedk" value="">
+      <label for="emailChedk"><span>e-mail</span></label>
+      <input type="e-mail" name="emailText" id="emailText"></input>
+  </fieldset>
+
+</form>
 </article>
+
+
+<!-- 
+  <div class="agree_all clearfix">
+     <form action="#" method="post">
+      <fieldset>
+        <legend class="hidden">모두동의하기</legend>
+        <input type="checkbox" id="allAgree" name="allAgree" value="">
+        <label for="allAgree"><span>모두 동의하기</span></label>
+      </fieldset>
+    </form>
+  </div> -->

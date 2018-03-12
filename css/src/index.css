@@ -49,7 +49,7 @@ background-position: center;}
 #gnbBox{width: 960px;height: auto;margin: auto;padding: 60px;box-sizing: border-box;
 }
 #gnbBox>ul{width: 100%;height: 100%;margin: auto;background-color: inherit;position: relative; z-index: 200;}
-#gnbBox>ul>li{width: calc(100% / 5);height: auto;float:left;background-color: inherit;}
+#gnbBox>ul>li{width: calc(100% / 4);height: auto;float:left;background-color: inherit;}
 
 #gnbBox>ul>li>dl{width: 100%;height: auto ; margin: 0 auto;position: relative;background-color: inherit;}
 #gnbBox>ul>li>dl>dt{font-size:20px;text-transform: uppercase;}

@@ -23,8 +23,9 @@ a:hover,button:hover,i:hover{cursor: pointer;color: #df1566;}
 
 /*checkBox btn*/
 input[type="checkbox"]{display: none;position: relative;z-index: -1000;}
-input[type="checkbox"]+label{position: relative;}
+input[type="checkbox"]+label{position: relative;cursor: pointer;}
 input[type="checkbox"]+label>span{margin-left: 30px}
+
 input[type="checkbox"]+label:after{
 content: " ";
     width: 20px;
@@ -48,7 +49,13 @@ input[type="checkbox"]+label:before {
   margin-top: 5px
 }
 
-input[type="checkbox"]:checked+label:after{background-color: #df1566}
+input[type="checkbox"]:checked+label:after{
+  background-color: #df1566;
+  content: "\f00c ";
+font-family: fontawesome;
+text-align: center;
+vertical-align: middle;
+color: #333;}
 input[type="checkbox"]:checked+label:before{border-top: 4px solid #df1566;}
 
 input[placeholder]{text-transform: uppercase;}

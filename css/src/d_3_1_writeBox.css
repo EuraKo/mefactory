@@ -1,52 +1,35 @@
-.tit{width: 140px;}
+/*d_3_1_writeBox.css(카테고리 :d_1_reviewBox.css)*/
+.title{width: 180px;}
 
-.title_name{margin-right: 30px;}
-/*d_3_1_1_typeBox-------------------*/
-#typeBox,#alarmBox,#writeBtnBox{width: 960px;margin: 0 auto;background-color: #F9D6DD;padding: 30px 120px;box-sizing: border-box;}
-#typeBox>div{float: left;}
+.title_name{margin-right: 30px;float: left;}
+/*d_3_1_1_typeBox()-------------------*/
+#typeBox,#alarmBox,#writeBtnBox{width: 960px;margin: 0 auto;padding: 0 120px;box-sizing: border-box;}
 
-
-.category{ width: 300px;height: 35px;background-color: #fff}
-.category>dl{width: 100%; height: 100%; }
-.category>dl>dt{width: 100%; height: 100%;border:1px solid #222;}
-.category>dl>dt>span{float: left;padding: 5px;box-sizing: border-box;}
-.category>dl>dt>button{height: 100%;float: right;border-left: 1px solid #222;padding: 5px;box-sizing: border-box;}
-
-.category>dl>dd{width: 100%; height:auto; background-color: #aaa; display: none;
-}s
-.category>dl>dd>ul{width: 100%; height:auto;}
-.category>dl>dd>ul>li{width: 100%; height:25px;padding: 5px;box-sizing: border-box; }
-
-.category:hover dd{display: block;}
+fieldset.category{float: left;}
 
 /*d_3_1_2_writeBox------------------*/
 #writeBox{width: 960px;margin: 0 auto;padding: 30px 120px;box-sizing: border-box;margin-bottom: 30px}
-#writeBox>dl{width: 100%;height: auto;}
-#writeBox>dl>dt{margin-bottom: 30px}
-#writeBox ul{width: 100%;height: 100%;}
-#writeBox li{float: left;}
-#writeBox>dl>dd{}
-.wirte_area{width: 600px;border:1px solid #222;}
-.write_title{height: 30px;}
-.write_text{height: 300px;}
+#writeBox input,#writeBox textarea,#alarmBox input{width: 600px;border:1px solid #aaa;border-left: 5px solid #DF1566;}
+#titleName{height: 45px;margin-bottom: 60px}
+#writeBox textarea{height: 390px;}
 
 /*d_3_1_3_alarmBox(위에 typeBox랑 같이있음)----------------*/
 
-#alarmBox>div{float: left;}
-#alarmBox>div>div>ul>li{float: left;margin-right: 30px;}
+#alarmBox>div,#alarmBox>form{float: left;}
 
-.sms_area{margin-bottom: 30px;}
-.sms_area>ul{width: 100%;height: auto ;}
-.howto{width: 60px;padding: 5px;box-sizing: border-box;}
-.alarm_text{width: 200px;height: 30px;background-color: #fff;border:1px solid #222;}
+#alarmBox fieldset{margin-bottom: 30px;}
+
+#alarmBox #smsText,#alarmBox #emailText{height: 45px;width: 350px;}
+#alarmBox label>span{width: 50px;display: inline-block;}
 
 /*writeBtnBox----------------*/
-#writeBtnBox{background-color: #fff;}
+#writeBtnBox{background-color: #fff;padding: 30px 0;box-sizing: border-box;}
 #writeBtnBox>ul{width: 250px;height: 100%;margin: 0 auto;}
-#writeBtnBox>ul>li{width: 120px;height: 30px;float: left;margin-right: 10PX;}
-#writeBtnBox button{width: 100%;height: 100%;background-color:#F9D6DD; }
-#writeBtnBox button:hover{background-color: #DF1566;color: #fff;}
-#writeBtnBox span
+#writeBtnBox>ul>li{width: 120px;height: 45px;float: left;}
+#writeBtnBox button{width: 100%;height: 100%;}
+#writeBtnBox li:first-of-type button{background-color:#DF1566; color: #fff;}
+#writeBtnBox li:last-of-type button{border:1px solid #DF1566;}
+/*#writeBtnBox button:hover{background-color: #DF1566;color: #fff;}*/
 
 
 

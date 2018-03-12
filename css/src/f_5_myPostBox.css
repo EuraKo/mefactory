@@ -1,2 +1,9 @@
 /*f_5_myPostBox.css*/
-
+/*table은 all_tableBox.css*/
+/*btn--------*/
+#myPostBox{width: 960px;margin: auto;}
+.postBtn{width: 30%;height: 45px;float: right;}
+.postBtn a,
+.postBtn button{width: calc(100% / 2);height: 45px;float: left;}
+.postBtn a{text-align: center;line-height: 45px;background-color: #df1566;color: #fff;}
+.postBtn button{border:1px solid #df1566;}
