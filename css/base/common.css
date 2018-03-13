@@ -54,8 +54,8 @@ input[type="checkbox"]:checked+label:after{
   content: "\f00c ";
 font-family: fontawesome;
 text-align: center;
-vertical-align: middle;
-color: #333;}
+line-height: 100%;
+color: #fff;}
 input[type="checkbox"]:checked+label:before{border-top: 4px solid #df1566;}
 
 input[placeholder]{text-transform: uppercase;}
