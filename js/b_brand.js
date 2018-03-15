@@ -15,7 +15,7 @@ select.load(file, function(){
   }
 
   var wrap=$('#wrap');
-  var baseUrl='../../html/src/';
+  var baseUrl='./src/';
   var loadFile={headBox : baseUrl+'all/headBox.html',
   gnbBox : baseUrl+'all/gnbBox.html',
   brandBox :  baseUrl+'b_brand/brandBox.html',
