@@ -14,7 +14,7 @@ select.load(file, function(){
 });
 }
   var wrap=$('#wrap');
-  var baseUrl='../../html/src/';
+  var baseUrl='./src/';
   var loadFile={headBox : baseUrl+'all/headBox.html',
   gnbBox : baseUrl+'all/gnbBox.html',
   d_1_reviewBox :  baseUrl+'d_community/d_1_reviewBox.html',

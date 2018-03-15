@@ -15,7 +15,7 @@ select.load(file, function(){
 });
 }
   var wrap=$('#wrap');
-  var baseUrl='../../html/src/';
+  var baseUrl='./src/';
   var loadFile={headBox : baseUrl+'all/headBox.html',
   gnbBox : baseUrl+'all/gnbBox.html',
   f_1_3_periodBox : baseUrl+'f_mypage/f_1_orderBox/f_1_3_periodBox.html',

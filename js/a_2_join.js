@@ -16,7 +16,7 @@
 
 
   var wrap = $('#wrap');
-  var baseUrl='../../html/src/';
+  var baseUrl='./src/';
   var loadFile = {headBox : baseUrl + 'all/headBox.html',
                   gnbBox : baseUrl + 'all/gnbBox.html',
                   joinBox : baseUrl + 'a_customer/joinBox.html',
