@@ -1,0 +1,11 @@
+/*image_link.css*/
+#imageBox{
+  width: 100%;height: 100%;
+}
+h2{
+  width: 100%;height: 100%;text-align: center;font-size: 38px;margin-bottom: 60px;
+}
+dl{width: 80%;margin: 0 auto;}
+dt{float: left;width: 10%;margin-bottom: 30px;}
+dd{float: right;width:90%;margin-bottom: 30px;}
+p{margin-bottom: 30px;}
